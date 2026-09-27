@@ -1,0 +1,24 @@
+============================================================
+  LOG ANALYTICS REPORT — SWE40006 Task 4.4
+============================================================
+  Generated (UTC) : 2026-09-27T08:01:55.141043+00:00
+  Tool / Version  : log-reporter v1.0.0
+  Input path      : /data/input/app.log
+  Lines processed : 21
+  Error lines     : 2
+
+  Log level distribution:
+    DEBUG          1  #
+    INFO          15  ###############
+    WARNING        2  ##
+    ERROR          1  #
+    CRITICAL       1  #
+
+  Keyword frequency:
+    build            3
+    container        4
+    deploy           1
+    docker           4
+    pull             5
+    push             2
+============================================================

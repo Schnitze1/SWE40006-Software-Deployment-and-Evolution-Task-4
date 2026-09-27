@@ -1,0 +1,21 @@
+# Sample container/host log data for Task 4.4 CLI analysis
+2026-09-26 09:15:01 INFO  Docker Engine started successfully
+2026-09-26 09:15:02 INFO  Container flask-portal pulled from Docker Hub
+2026-09-26 09:15:04 INFO  Build step 1/10 complete — base image python:3.12-slim
+2026-09-26 09:15:09 INFO  Build step 5/10 complete — pip install requirements
+2026-09-26 09:15:15 WARNING  Layer cache miss on COPY app.py
+2026-09-26 09:15:18 INFO  Build completed in 12.4s
+2026-09-26 09:15:20 INFO  Pushing image schnitze1/flask-portal:1.0 to Docker Hub
+2026-09-26 09:15:31 INFO  Push complete — digest sha256:4f55086f7dd0
+2026-09-26 09:15:33 INFO  Secondary host WSL Ubuntu pulling image
+2026-09-26 09:15:40 INFO  Pull complete on secondary host
+2026-09-26 09:15:41 INFO  Container started on secondary host port 5000
+2026-09-26 09:16:02 DEBUG Health check passed for ops-dashboard
+2026-09-26 09:16:10 ERROR Temporary registry timeout during manifest fetch
+2026-09-26 09:16:12 INFO  Retrying pull operation
+2026-09-26 09:16:15 INFO  Pull recovered successfully
+2026-09-26 09:16:30 INFO  Deployment verification HTTP 200 OK
+2026-09-26 09:16:45 WARNING Disk usage on /var/lib/docker at 78%
+2026-09-26 09:17:00 INFO  CLI reporter container executed and exited 0
+2026-09-26 09:17:01 INFO  Report written to /data/output/report.json
+2026-09-26 09:17:02 CRITICAL Simulated hard failure for analytics demo
